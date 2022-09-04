@@ -9,6 +9,7 @@ Built and used on ```neovim 0.7```.
 
 ## Features:
 - Command ```Fe <path/to/file>``` to open a floating window
+- Works on absolute paths, relative paths (semi stable) and NERDTree Nodes
 - Add this to ```init.lua```.
 
 ```lua
