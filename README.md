@@ -34,7 +34,7 @@ vim.keymap.set(
 call NERDTreeAddKeyMap({
         \ 'key': '<leader>f',
         \ 'callback': 'NERDTreeYankCurrentNode',
-        \ 'quickhelpText': 'put full path of current node into the default register' })
+        \ 'quickhelpText': 'put full path of current node and edit in floating window' })
 
 function! NERDTreeYankCurrentNode()
     let n = g:NERDTreeFileNode.GetSelected()
